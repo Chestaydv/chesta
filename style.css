@@ -78,6 +78,8 @@ a{
 	width: 70%;
 	margin: 1rem auto;
 	padding: 1rem;
+	position: relative;
+	top: -7vh;
 }
 .header{
 	width: 100%;
@@ -89,7 +91,11 @@ a{
 	margin: 1rem auto;
 	display: grid;grid-template-columns: 25% 25% 25% 25%;
 }
-.skill_img{
+.certificates{
+	margin: 1rem auto;
+	display: grid;grid-template-columns: 50% 50%;
+}
+.skill_img, .cert_img{
 	width: 100%;
 }
 @media screen and (max-width: 700px) {
@@ -109,4 +115,12 @@ a{
 	#data_image{
 		border-radius: 1rem;
 	}
+	.skills{
+	margin: 1rem auto;
+	display: grid;grid-template-columns: 50% 50%;
+	}
+	.certificates{
+	margin: 1rem auto;
+	display: grid;grid-template-columns: 100%;
+}
 }
